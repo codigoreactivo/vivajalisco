@@ -3,7 +3,7 @@ import React from "react";
 const Welcome = () => {
   return (
     <div className="flex flex-col  items-center text-[#343434] basis-full">
-      <div className="text-[#343434] flex flex-col justify-center items-center text-center lg:max-w-[56%] h-[55vh]">
+      <div className="text-[#343434] flex flex-col justify-center items-center text-center lg:max-w-[56%] h-auto lg:h-[55vh]">
         <h2 className="font-[BebasNeue-Regular] lg:text-[10rem] text-[3.5rem] uppercase">
           Bienvenidos
         </h2>
