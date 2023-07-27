@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <div className="flex flex-col  items-center text-[#343434] basis-full">
       <div className="text-[#343434] flex flex-col justify-center items-center text-center lg:max-w-[56%] h-[55vh]">
-        <h2 className="font-[Commador] lg:text-[10rem] text-[5rem] uppercase">
+        <h2 className="font-[Commador] lg:text-[10rem] text-[2rem] uppercase">
           Bienvenidos
         </h2>
         <div className=" flex flex-col gap-4 lg:text-[1.3rem] px-12">
