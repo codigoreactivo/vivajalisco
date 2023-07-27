@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
   font-family: "Waterfall";
   font-style: normal;
@@ -17,8 +16,8 @@
 }
 
 @font-face {
-  font-family: 'Commador';
-  src: local('Commador'), url(/fonts/Commador.ttf) format('truetype');
+  font-family: 'BebasNeue-Regular';
+  src: local('BebasNeue-Regular'), url(/fonts/BebasNeue-Regular.ttf) format('truetype');
 }
 html {
   font-family: "Montserrat", sans-serif;
