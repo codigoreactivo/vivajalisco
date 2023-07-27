@@ -92,7 +92,7 @@ const Navbar = () => {
               : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#525252] text-center ease-in duration-300"
           }
         >
-          <ul className="font-[Commador] text-white">
+          <ul className="font-[BebasNeue-Regular] text-white">
             <Image
               className="absolute right-[35%] top-10"
               src="/img/LOGO.png"

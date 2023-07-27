@@ -7,7 +7,7 @@ const Welcome = () => {
         <h2 className="font-[BebasNeue-Regular] lg:text-[10rem] text-[3.5rem] uppercase">
           Bienvenidos
         </h2>
-        <div className=" flex flex-col gap-4 lg:text-[1.3rem] text-[0.95rem] px-10">
+        <div className=" flex flex-col gap-4 lg:text-[1.3rem] text-[1.05rem] px-10">
           <p className=" font-[100] leading-none">
             At Viva Jalisco, flavor and generous portions take center stage,
             setting it apart from the rest.
@@ -32,7 +32,7 @@ const Welcome = () => {
           VIVA JALISCO MEXICAN RESTAURANT <br /> IS LOCATED IN BOTHELL,
           WASHINGTON
           <br />
-          <span className="font-[100]"> 1715 228th St SE UNIT 102</span>
+          <span className="font-[300]"> 1715 228th St SE UNIT 102</span>
         </p>
       </div>
       <div className="flex flex-col lg:flex-row w-full justify-center lg:gap-[12rem] items-center h-auto lg:h-[25vh] bg-[#00ACCE]">
