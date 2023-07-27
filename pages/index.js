@@ -15,25 +15,25 @@ export default function Home() {
       <NavBar />
       <section
         id="about"
-        className="text-white h-screen bg-black  text-center flex basis-full"
+        className="text-white h-screen bg-black  text-center flex w-full"
       >
         <Slider />
       </section>
-      <section id="weolcome" className="lg:h-screen h-auto flex">
+      <section id="weolcome" className="lg:h-screen h-auto flex w-full">
         <Welcome />
       </section>
       <section
         id="contact"
-        className="text-[#343434] h-screen text-center flex"
+        className="text-[#343434] h-screen text-center flex w-full"
       >
         <About />
       </section>
-      <section id="projects" className=" text-white h-screen bg-[#004857] flex">
+      <section id="projects" className=" text-white h-screen bg-[#004857] flex w-full">
         <Menus />
       </section>
       <section
         id="projects"
-        className=" text-white h-screen bg-center bg-no-repeat bg-cover"
+        className=" text-white h-screen bg-center bg-no-repeat bg-cover w-full"
         style={{
           backgroundImage: "url('img/5.jpg')",
         }}
@@ -42,7 +42,7 @@ export default function Home() {
       </section>
       <section
         id="projects"
-        className=" text-white h-screen "
+        className=" text-white h-screen w-full"
         style={{
           backgroundImage: "url('img/6.jpg')",
         }}
@@ -50,13 +50,13 @@ export default function Home() {
         <Platters />
       </section>
 
-      <section id="projects" className=" text-white h-auto">
+      <section id="projects" className=" text-white h-auto w-full">
         <Gallery />
       </section>
-      <section id="projects" className=" text-white lg:px-0 px-12 h-[45vh] bg-[#004857] flex justify-center items-center">
+      <section id="projects" className=" text-white lg:px-0 px-12 h-[45vh] w-full bg-[#004857] flex justify-center items-center">
         <Image src="/img/LOGO.png" width={600} height={40}></Image>
       </section>
-      <footer className="flex basis-full h-[30vh] bg-black">
+      <footer className="flex basis-full h-[30vh] bg-black w-full">
         <Footer />
       </footer>
     </div>
