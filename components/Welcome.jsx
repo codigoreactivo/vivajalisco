@@ -27,7 +27,7 @@ const Welcome = () => {
           </p>
         </div>
       </div>
-      <div className="bg-[#67BFB1] flex  h-[20vh] justify-center items-center">
+      <div className="bg-[#67BFB1] flex w-full  h-[20vh] justify-center items-center">
         <p className="text-[#004857] font-[800] text-center lg:text-[1.7rem] leading-none">
           VIVA JALISCO MEXICAN RESTAURANT <br /> IS LOCATED IN BOTHELL,
           WASHINGTON
@@ -35,7 +35,7 @@ const Welcome = () => {
           <span className="font-[100]"> 1715 228th St SE UNIT 102</span>
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row  justify-center lg:gap-[12rem] items-center h-auto lg:h-[25vh] bg-[#00ACCE]">
+      <div className="flex flex-col lg:flex-row w-full justify-center lg:gap-[12rem] items-center h-auto lg:h-[25vh] bg-[#00ACCE]">
         <div className="text-center my-6 flex flex-col lg:flex-row items-center lg:text-left gap-4">
           <h2 className="uppercase lg:text-right text-center font-[BebasNeue-Regular] text-[3rem] lg:text-[5rem] leading-none text-[#004857]">
             We are open <br /> 7 days a week
