@@ -54,7 +54,7 @@ const Navbar = () => {
         ></Image>
         <ul
           style={{ color: `${textColor}` }}
-          className="hidden uppercase text-[2rem] font-[Anton-Regular] gap-11 sm:flex items-center"
+          className="hidden uppercase text-[1.6rem] font-[Anton-Regular] gap-11 sm:flex items-center"
         >
           <li className="p-4  mt-6 nav-hov-effect" onClick={() => scrollToSection("home")}>
             <p className="cursor-pointer "> <span className="text-azul-light">Ho</span><span className="text-verde-light">me</span> </p>

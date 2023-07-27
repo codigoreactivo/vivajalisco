@@ -11,7 +11,7 @@ const Footer = () => {
         <p className="font-[800] text-[2rem] lg:text-[2.5rem]">(425)481-3931</p>
       </div>
       <div className="text-center flex flex-col lg:flex-row items-center lg:text-left gap-4">
-        <h2 className="uppercase lg:text-right text-center font-[BebasNeue-Regular] text-[5rem] leading-none">
+        <h2 className="uppercase lg:text-right text-center font-[Anton-Regular] text-[4rem] leading-none">
           Hours of
           <br /> operation
         </h2>
@@ -29,12 +29,12 @@ const Footer = () => {
         </h6>
         <div className="flex text-[2.5rem] gap-2 justify-center lg:justify-start">
           <Link
-            href="https://www.instagram.com/acalastortaswa/"
+            href="/"
             target="_blank"
           >
             <AiFillInstagram className=" rounded-lg"></AiFillInstagram>
           </Link>
-          <Link href="https://www.facebook.com/AcaLasTortasWA" target="_blank">
+          <Link href="/" target="_blank">
             <AiFillFacebook className="rounded-lg"></AiFillFacebook>
           </Link>
         </div>
