@@ -8,7 +8,7 @@ const About = () => {
         <Image src="/img/person.jpg" width={1200} height={40}></Image>
       </div>
       <div className="lg:basis-[28%] relative z-10 lg:pr-[5rem] px-12 leading-none ">
-        <h2 className="font-[Commador] uppercase text-[6rem] lg:text-[5.5rem] 2xl:text-[9rem] text-[#fff]">About <span className="text-[#004857]">Us</span> </h2>
+        <h2 className="font-[Commador] uppercase text-[4rem] lg:text-[5.5rem] 2xl:text-[9rem] text-[#fff]">About <span className="text-[#004857]">Us</span> </h2>
         <p className="lg:text-[1.3rem] text-justify font-[100] text-[#004857]">
           Allow me to introduce Norma and Jose, the passionate owners of Viva
           Jalisco, a typical Mexican restaurant located in Bothell, Washington.
