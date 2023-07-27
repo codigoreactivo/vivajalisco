@@ -15,7 +15,7 @@ export default function Home() {
       <NavBar />
       <section
         id="about"
-        className="text-white h-screen bg-black  text-center flex"
+        className="text-white h-screen bg-black  text-center flex basis-full"
       >
         <Slider />
       </section>
