@@ -54,7 +54,7 @@ export default function Home() {
         <Gallery />
       </section>
       <section id="projects" className=" text-white lg:px-0 px-12 h-[45vh] bg-[#004857] flex justify-center items-center">
-        <Image className="lg:w-[600px] w-[100px]" src="/img/LOGO.png" width={600} height={40}></Image>
+        <Image className="lg:w-[600px] w-[200px]" src="/img/LOGO.png" width={600} height={40}></Image>
       </section>
       <footer className="flex basis-full h-[30vh] bg-black">
         <Footer />
