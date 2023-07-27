@@ -43,7 +43,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed uppercase left-0 top-0 w-full z-[50] ease-in duration-300 items-center"
     >
-      <div className="lg:max-w-[50%] m-auto flex justify-between lg:justify-center items-center  p-4 text-white font-[Commador]">
+      <div className="navbar lg:max-w-[50%] m-auto flex justify-between lg:justify-center items-center  p-4 text-white font-[Commador]">
 
       <Image
       className="sm:hidden"
@@ -57,10 +57,10 @@ const Navbar = () => {
           className="hidden uppercase text-[2rem] font-[Commador] gap-11 sm:flex items-center"
         >
           <li className="p-4  mt-6 nav-hov-effect" onClick={() => scrollToSection("home")}>
-            <p className="cursor-pointer ">Home</p>
+            <p className="cursor-pointer "> <span className="text-azul-light">Ho</span><span className="text-verde-light">me</span> </p>
           </li>
           <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("menus")}>
-            <p className="cursor-pointer ">About</p>
+            <p className="cursor-pointer "> <span className="text-azul-light">Abo</span><span className="text-verde-light">ut</span> </p>
           </li>
           <Image
           src="/img/LOGO.png"
@@ -69,10 +69,10 @@ const Navbar = () => {
           onClick={() => scrollToSection("home")}
         ></Image>
           <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("bar")}>
-            <p className="cursor-pointer ">Menu</p>
+            <p className="cursor-pointer "><span className="text-azul-light">Me</span><span className="text-verde-light">nu</span></p>
           </li>
           <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("order-online")}>
-            <p className="cursor-pointer ">Platters</p>
+            <p className="cursor-pointer "><span className="text-azul-light">Pla</span><span className="text-verde-light">tters</span></p>
           </li>
         </ul>
 

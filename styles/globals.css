@@ -70,3 +70,12 @@ position: absolute;
 .swiper-pagination {
   margin-bottom: 2.5rem;
 }
+
+/* Estilo para el enlace en hover (color azul claro) */
+.navbar ul li:hover .text-azul-light {
+  color: #00ACCE;
+}
+/* Estilo para el enlace en hover (color verde claro) */
+.navbar ul li:hover .text-verde-light {
+  color: #67BFB1;
+}
