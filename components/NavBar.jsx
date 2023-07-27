@@ -43,7 +43,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed uppercase left-0 top-0 w-full z-[50] ease-in duration-300 items-center"
     >
-      <div className="navbar lg:max-w-[50%] m-auto flex justify-between lg:justify-center items-center  p-4 text-white font-[BebasNeue-Regular]">
+      <div className="navbar lg:max-w-[50%] m-auto flex justify-between lg:justify-center items-center  p-4 text-white font-[Anton-Regular]">
 
       <Image
       className="sm:hidden"
@@ -54,7 +54,7 @@ const Navbar = () => {
         ></Image>
         <ul
           style={{ color: `${textColor}` }}
-          className="hidden uppercase text-[2rem] font-[BebasNeue-Regular] gap-11 sm:flex items-center"
+          className="hidden uppercase text-[2rem] font-[Anton-Regular] gap-11 sm:flex items-center"
         >
           <li className="p-4  mt-6 nav-hov-effect" onClick={() => scrollToSection("home")}>
             <p className="cursor-pointer "> <span className="text-azul-light">Ho</span><span className="text-verde-light">me</span> </p>
@@ -92,7 +92,7 @@ const Navbar = () => {
               : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#525252] text-center ease-in duration-300"
           }
         >
-          <ul className="font-[BebasNeue-Regular] text-white">
+          <ul className="font-[Anton-Regular] text-white">
             <Image
               className="absolute right-[35%] top-10"
               src="/img/LOGO.png"

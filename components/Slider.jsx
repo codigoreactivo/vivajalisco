@@ -32,10 +32,10 @@ export default function App() {
             }}
           >
             <div className=" absolute h-screen w-full mySwipersli "></div>
-            <h1 className="uppercase z-10 text-[6.5rem] lg:text-[14rem] font-[BebasNeue-Regular]">
+            <h1 className="uppercase z-10 text-[6.5rem] lg:text-[14rem] font-[Anton-Regular]">
               welcome
             </h1>
-            <h2 className="uppercase z-10 text-[1.8rem] tracking-[0.5rem] lg:text-[3rem] font-[BebasNeue-Regular]  lg:tracking-[1.3rem]">
+            <h2 className="uppercase z-10 text-[1.8rem] tracking-[0.5rem] lg:text-[3rem] font-[Anton-Regular]  lg:tracking-[1.3rem]">
               to viva jalisco
             </h2>
             <p className="px-[4rem] z-10 lg:px-0 text-[1rem] mt-4 lg:text-[1.3rem]">

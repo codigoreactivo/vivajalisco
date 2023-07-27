@@ -16,8 +16,8 @@
 }
 
 @font-face {
-  font-family: 'BebasNeue-Regular';
-  src: local('BebasNeue-Regular'), url(/fonts/BebasNeue-Regular.ttf) format('truetype');
+  font-family: 'Anton-Regular';
+  src: local('Anton-Regular'), url(/fonts/Anton-Regular.ttf) format('truetype');
 }
 html {
   font-family: "Montserrat", sans-serif;
