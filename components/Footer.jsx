@@ -11,7 +11,7 @@ const Footer = () => {
         <p className="font-[800] text-[2rem] lg:text-[2.5rem]">(425)481-3931</p>
       </div>
       <div className="text-center flex flex-col lg:flex-row items-center lg:text-left gap-4">
-        <h2 className="uppercase lg:text-right text-center font-[Commador] text-[5rem] leading-none">
+        <h2 className="uppercase lg:text-right text-center font-[BebasNeue-Regular] text-[5rem] leading-none">
           Hours of
           <br /> operation
         </h2>

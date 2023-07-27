@@ -4,7 +4,7 @@ import Link from "next/link";
 const Menus = () => {
   return (
     <div className="flex basis-full flex-col justify-center items-center">
-      <h2 className="uppercase lg:mb-0 mb-[5rem] text-[8rem] lg:text-[24rem] font-[Commador] leading-none">
+      <h2 className="uppercase lg:mb-0 mb-[5rem] text-[8rem] lg:text-[24rem] font-[BebasNeue-Regular] leading-none">
         Menus
       </h2>
       <div className="flex flex-col lg:flex-row gap-20">

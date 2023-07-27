@@ -37,7 +37,7 @@ const Welcome = () => {
       </div>
       <div className="flex flex-col lg:flex-row  justify-center lg:gap-[12rem] items-center h-auto lg:h-[25vh] bg-[#00ACCE]">
         <div className="text-center my-6 flex flex-col lg:flex-row items-center lg:text-left gap-4">
-          <h2 className="uppercase lg:text-right text-center font-[Commador] text-[3rem] lg:text-[5rem] leading-none text-[#004857]">
+          <h2 className="uppercase lg:text-right text-center font-[BebasNeue-Regular] text-[3rem] lg:text-[5rem] leading-none text-[#004857]">
             We are open <br /> 7 days a week
           </h2>
           <ul className="lg:text-[1.3rem] text-[#004857]">
@@ -48,7 +48,7 @@ const Welcome = () => {
           </ul>
         </div>
         <div className="text-center my-6 ">
-          <h2 className="font-[Commador] text-[3rem] lg:text-[5rem]  text-[#fff] leading-[1.6rem] uppercase">
+          <h2 className="font-[BebasNeue-Regular] text-[3rem] lg:text-[5rem]  text-[#fff] leading-[1.6rem] uppercase">
             Happy <span className="text-[#004857]">Hour </span> <br />
             <span className="text-[1rem] lg:text-[1.3rem] text-[#004857] tracking-[0.6rem] font-[Montserrat] font-[700]">
               every <span className="text-[#fff]">day!</span>
