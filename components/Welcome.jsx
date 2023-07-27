@@ -8,18 +8,18 @@ const Welcome = () => {
           Bienvenidos
         </h2>
         <div className=" flex flex-col gap-4 lg:text-[1.3rem] text-[1.05rem] px-6">
-          <p className=" font-[100] leading-none">
+          <p className=" font-[300] leading-none">
             At Viva Jalisco, flavor and generous portions take center stage,
             setting it apart from the rest.
           </p>
-          <p className=" font-[100] leading-none">
+          <p className=" font-[300] leading-none">
             {" "}
             What sets this restaurant apart is their unwavering commitment to
             preserving the authentic flavors of Mexico. Norma and Jose, the
             skilled chefs and owners, employ traditional cooking techniques that
             make all the difference in every dish they prepare.{" "}
           </p>
-          <p className=" font-[100] leading-none">
+          <p className=" font-[300] leading-none">
             From the sizzling meats cooked to perfection, to the vibrant and
             aromatic salsas, every bite at Viva Jalisco is a testament to their
             dedication and passion for delivering an exceptional dining
