@@ -4,10 +4,10 @@ const Welcome = () => {
   return (
     <div className="flex flex-col  items-center text-[#343434] basis-full">
       <div className="text-[#343434] flex flex-col justify-center items-center text-center lg:max-w-[56%] h-[55vh]">
-        <h2 className="font-[BebasNeue-Regular] lg:text-[10rem] text-[2rem] uppercase">
+        <h2 className="font-[BebasNeue-Regular] lg:text-[10rem] text-[3.5rem] uppercase">
           Bienvenidos
         </h2>
-        <div className=" flex flex-col gap-4 lg:text-[1.3rem] px-12">
+        <div className=" flex flex-col gap-4 lg:text-[1.3rem] text-xl px-10">
           <p className=" font-[100] leading-none">
             At Viva Jalisco, flavor and generous portions take center stage,
             setting it apart from the rest.
