@@ -43,7 +43,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed uppercase left-0 top-0 w-full z-[50] ease-in duration-300 items-center"
     >
-      <div className="navbar lg:max-w-[50%] m-auto flex justify-between lg:justify-center items-center  p-4 text-white font-[Commador]">
+      <div className="navbar lg:max-w-[50%] m-auto flex justify-between lg:justify-center items-center  p-4 text-white font-[BebasNeue-Regular]">
 
       <Image
       className="sm:hidden"
@@ -54,7 +54,7 @@ const Navbar = () => {
         ></Image>
         <ul
           style={{ color: `${textColor}` }}
-          className="hidden uppercase text-[2rem] font-[Commador] gap-11 sm:flex items-center"
+          className="hidden uppercase text-[2rem] font-[BebasNeue-Regular] gap-11 sm:flex items-center"
         >
           <li className="p-4  mt-6 nav-hov-effect" onClick={() => scrollToSection("home")}>
             <p className="cursor-pointer "> <span className="text-azul-light">Ho</span><span className="text-verde-light">me</span> </p>
