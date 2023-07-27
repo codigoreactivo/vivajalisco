@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
   font-family: "Waterfall";
   font-style: normal;
@@ -14,9 +15,10 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+
 @font-face {
-  font-family: "Montserrat-ExtraLight";
-  src: url("/fonts/Montserrat/Montserrat-ExtraLight.ttf");
+  font-family: 'Commador';
+  src: local('Commador'), url(/fonts/Commador.ttf) format('truetype');
 }
 html {
   font-family: "Montserrat", sans-serif;
