@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <div className="h-screen lg:h-[30vh] relative grid lg:grid-cols-3 w-full bg-[#67BFB1] text-white items-center justify-items-center">
       <div className="grid content-center lg:justify-items-start justify-items-center">
-        <p className=" text-[1.4rem] lg:text-center leading-none font-[100]">1715 228th St SE UNIT 102 <br /> Bothell, WA 98021</p>
+        <p className=" text-[1.4rem] lg:text-center leading-none font-[100]">
+          1715 228th St SE UNIT 102 <br /> Bothell, WA 98021
+        </p>
         <p className="font-[800] text-[2rem] lg:text-[2.5rem]">(425)481-3931</p>
       </div>
       <div className="text-center flex flex-col lg:flex-row items-center lg:text-left gap-4">
@@ -29,12 +31,15 @@ const Footer = () => {
         </h6>
         <div className="flex text-[2.5rem] gap-2 justify-center lg:justify-start">
           <Link
-            href="/"
+            href="https://www.instagram.com/vivajaliscorestaurant"
             target="_blank"
           >
             <AiFillInstagram className=" rounded-lg"></AiFillInstagram>
           </Link>
-          <Link href="/" target="_blank">
+          <Link
+            href="https://www.facebook.com/vivajaliscobothell"
+            target="_blank"
+          >
             <AiFillFacebook className="rounded-lg"></AiFillFacebook>
           </Link>
         </div>
