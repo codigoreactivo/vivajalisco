@@ -59,7 +59,7 @@ const Navbar = () => {
           <li className="p-4  mt-6 nav-hov-effect" onClick={() => scrollToSection("home")}>
             <p className="cursor-pointer "> <span className="text-azul-light">Ho</span><span className="text-verde-light">me</span> </p>
           </li>
-          <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("menus")}>
+          <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("about")}>
             <p className="cursor-pointer "> <span className="text-azul-light">Abo</span><span className="text-verde-light">ut</span> </p>
           </li>
           <Image
@@ -68,10 +68,10 @@ const Navbar = () => {
           height={20}
           onClick={() => scrollToSection("home")}
         ></Image>
-          <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("bar")}>
+          <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("menus")}>
             <p className="cursor-pointer "><span className="text-azul-light">Me</span><span className="text-verde-light">nu</span></p>
           </li>
-          <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("order-online")}>
+          <li className="p-4 mt-6 nav-hov-effect" onClick={() => scrollToSection("platters")}>
             <p className="cursor-pointer "><span className="text-azul-light">Pla</span><span className="text-verde-light">tters</span></p>
           </li>
         </ul>

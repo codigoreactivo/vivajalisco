@@ -47,11 +47,13 @@ export default function App() {
         <SwiperSlide>
           {" "}
           <div
-            className="flex flex-col justify-center items-center h-screen bg-no-repeat bg-cover bg-center "
+            className="flex  flex-col justify-center items-center h-screen bg-no-repeat bg-cover bg-center "
             style={{
               backgroundImage: "url('img/2.jpg')",
             }}
-          ></div>
+          >
+  
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           {" "}

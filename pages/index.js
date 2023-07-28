@@ -14,25 +14,25 @@ export default function Home() {
     <div>
       <NavBar />
       <section
-        id="about"
+        id="home"
         className="text-white h-screen bg-black  text-center flex "
       >
         <Slider />
       </section>
-      <section id="weolcome" className="lg:h-screen h-auto flex ">
+      <section id="welcome" className="lg:h-screen h-auto flex ">
         <Welcome />
       </section>
       <section
-        id="contact"
+        id="about"
         className="text-[#343434] h-screen text-center flex "
       >
         <About />
       </section>
-      <section id="projects" className=" text-white h-screen bg-[#004857] flex">
+      <section id="menus" className=" text-white h-screen bg-[#004857] flex">
         <Menus />
       </section>
       <section
-        id="projects"
+        
         className=" text-white h-screen bg-center bg-no-repeat bg-cover"
         style={{
           backgroundImage: "url('img/5.jpg')",
@@ -41,7 +41,7 @@ export default function Home() {
         <Margaritas />
       </section>
       <section
-        id="projects"
+        id="platters"
         className=" text-white h-screen "
         style={{
           backgroundImage: "url('img/6.jpg')",
