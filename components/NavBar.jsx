@@ -110,7 +110,7 @@ const Navbar = () => {
             </li>
             <li
               onClick={() => {
-                scrollToSection("menus-m");
+                scrollToSection("about");
                 handleNav();
               }}
               className="py-6 text-3xl text-[#fff] hover:text-gray-500"
@@ -119,7 +119,7 @@ const Navbar = () => {
             </li>
             <li
               onClick={() => {
-                scrollToSection("bar");
+                scrollToSection("menus");
                 handleNav();
               }}
               className="py-6 text-3xl text-[#fff] hover:text-gray-500"
@@ -129,7 +129,7 @@ const Navbar = () => {
 
             <li
               onClick={() => {
-                scrollToSection("order-online");
+                scrollToSection("platters");
                 handleNav("");
               }}
               className="py-6 text-3xl text-[#fff] hover:text-gray-500"
