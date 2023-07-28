@@ -70,8 +70,11 @@ position: absolute;
 .swiper-pagination-bullet {
   border: 3px solid #fff;
 }
-.swiper-pagination {
-  margin-bottom: 2.5rem;
+
+@media (min-width: 1024px) {
+  .swiper-pagination {
+    margin-bottom: 2.5rem;
+  }
 }
 
 /* Estilo para el enlace en hover (color azul claro) */
