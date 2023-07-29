@@ -5,7 +5,7 @@ import SubSlide from "../components/SubSlide"
 const About = () => {
   return (
     <div className="flex flex-col lg:flex-row relative basis-full lg:justify-center justify-evenly items-center">
-      <div className="lg:basis-[72%] w-[400px] justify-center block z-10 lg:pl-24">
+      <div className="lg:basis-[72%] w-[350px] justify-center block z-10 lg:pl-24">
         < SubSlide/>
       </div>
       <div className="lg:basis-[28%] relative z-10 lg:pr-[5rem] px-12 leading-none ">
