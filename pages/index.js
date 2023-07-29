@@ -35,7 +35,7 @@ export default function Home() {
         
         className=" text-white h-screen bg-center bg-no-repeat bg-cover"
         style={{
-          backgroundImage: "url('img/5.jpg')",
+          backgroundImage: "url('img/marg/1.jpg')",
         }}
       >
         <Margaritas />

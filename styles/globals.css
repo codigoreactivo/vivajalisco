@@ -85,3 +85,15 @@ position: absolute;
 .navbar ul li:hover .text-verde-light {
   color: #67BFB1;
 }
+
+.custom-fill-text h2{
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1024px){
+  .custom-fill-text h2{
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+  }
+}
