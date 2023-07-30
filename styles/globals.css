@@ -100,3 +100,79 @@ position: absolute;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #ffffff;
   }
+
+  /*STYLYING TEXT*/
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url(/img/marg/1.jpg);
+    background-position: center;
+    display: flex;
+}
+
+.hero-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        margin: auto;
+    }
+}
+
+.img-bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top center;
+    z-index: 1;
+}
+.img-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top center;
+    z-index: 1;
+}
+
+.title {
+  font-family: 'Anton-Regular';
+    position: absolute;
+    font-size: 13vw;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-text-stroke: 2px white;
+}
+
+.bordered-text {
+    z-index: 2;
+    color: transparent;
+}
+
+
+@media (max-width: 1090px){
+  .img-bg {
+      object-fit: scale-down;
+  }
+  .img-overlay {
+      object-fit: scale-down;
+  }
+}
+@media (max-width: 768px){
+    .title {
+      font-size: 13vw;
+      margin-top: 6%;
+      -webkit-text-stroke: 1px white;
+    }
+}

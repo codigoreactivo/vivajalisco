@@ -8,6 +8,7 @@ import Menus from "../components/Menus";
 import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import Image from "next/image";
+import MargeritasFx from "../components/MargeritasFx";
 
 export default function Home() {
   return (
@@ -31,15 +32,7 @@ export default function Home() {
       <section id="menus" className=" text-white h-screen bg-[#004857] flex">
         <Menus />
       </section>
-      <section
-        
-        className=" text-white h-screen bg-center bg-no-repeat bg-cover"
-        style={{
-          backgroundImage: "url('img/marg/1.jpg')",
-        }}
-      >
-        <Margaritas />
-      </section>
+      <MargeritasFx />
       <section
         id="platters"
         className=" text-white h-screen "
@@ -59,6 +52,7 @@ export default function Home() {
       <footer className="flex basis-full h-[30vh] bg-black">
         <Footer />
       </footer>
+     
     </div>
   );
 }

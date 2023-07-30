@@ -4,8 +4,8 @@ import Link from "next/link";
 const Margaritas = () => {
   return (
     <div className="flex justify-end z-20 items-center h-screen flex-col" >
-      <div className="h-[70vh] justify-center custom-fill-text items-start flex">
-        <h2 className="font-[Anton-Regular]  bg-clip-content bg-top custom-fill-text uppercase text-[5rem] lg:text-[15rem]">Margaritas</h2>
+      <div className="h-[70vh] justify-center items-start flex">
+        <h2 className="font-[Anton-Regular]  bg-clip-content bg-top  uppercase text-[5rem] lg:text-[15rem]">Margaritas</h2>
       </div>
      <div className="h-[30vh] flex justify-center items-end flex-col">
      <div className="mb-[2rem] self-center">
