@@ -109,6 +109,8 @@ position: absolute;
     object-fit: cover;
     background-image: url(/img/marg/1.jpg);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
 }
 
