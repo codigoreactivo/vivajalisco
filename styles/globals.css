@@ -173,13 +173,13 @@ position: absolute;
 }
 @media (max-width: 768px){
     .title {
-      font-size: 5rem;
-      padding-left: 2.25rem;
-      padding-right: 2.25rem;
+      font-size: 4rem;
+      margin: 1.25rem;
+      margin: 1.25rem;
       margin-top: 6%;
       -webkit-text-stroke: 1px white;
     }
     .img-overlay{
-      display: noneok;
+      display: none;
     }
 }
