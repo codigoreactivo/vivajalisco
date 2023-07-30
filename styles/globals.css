@@ -179,4 +179,7 @@ position: absolute;
       margin-top: 6%;
       -webkit-text-stroke: 1px white;
     }
+    .img-overlay{
+      display: noneok;
+    }
 }
